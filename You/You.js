@@ -1,0 +1,201 @@
+const clickCounts = {
+    Home: 0,
+    Hollywood:0,
+    Bollywood:0,
+    Punjab:0,
+    South :0,
+    Web :0,
+    GENREs:0,
+    More:0,
+    sonic1:0,
+    screen:0,
+    sonic3:0,
+    sonic2:0,
+    sonic4:0,
+    sonic5:0,
+    sonic6:0,
+    sonic7:0,
+    sonic8:0,
+    sonic9:0,
+    sonic10:0,
+}
+
+
+// Function to handle clicks on Movies, Song, Game, and End
+function handleClick(page) {
+    clickCounts[page]++;
+
+    // Get the page content to display
+    const pageContent = document.getElementById(`${page}-page`);
+    if (page === 'Home') {
+        if (clickCounts.Home === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.Home === 2) {
+            window.open('../index.html', '_blank');
+            clickCounts.Home = 0;  // Reset click count for Movies
+        }
+        
+    }
+    if (page === 'Hollywood') {
+        if (clickCounts.Hollywood === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.Hollywood === 2) {
+            window.open('../Hollywood.html', '_blank');
+            clickCounts.Hollywood = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'Bollywood') {
+        if (clickCounts.Bollywood === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.Bollywood === 2) {
+            window.open('../bollywood.html', '_blank');
+            clickCounts.Bollywood = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'Punjab') {
+        if (clickCounts.Punjab === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.Punjab === 2) {
+            window.open('../Punjab.html', '_blank');
+            clickCounts.Punjab = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'South') {
+        if (clickCounts.South === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.South === 2) {
+            window.open('../south.html', '_blank');
+            clickCounts.South = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'Web') {
+        if (clickCounts.Web  === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.Web  === 2) {
+            window.open('../web.html', '_blank');
+            clickCounts.Web = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'GENREs') {
+        if (clickCounts.GENREs === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.GENREs === 2) {
+            window.open('../movies.html', '_blank');
+            clickCounts.GENREs = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'More') {
+        if (clickCounts.More === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.More === 2) {
+            window.open('../movies.html', '_blank');
+            clickCounts.More = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sonic1') {
+        if (clickCounts.sonic1 === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.sonic1 === 2) {
+            window.open('You1.html', '_blank');
+            clickCounts. sonic1 = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sonic2') {
+        if (clickCounts.sonic2 === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts. sonic2 === 2) {
+            window.open('You2.html', '_blank');
+            clickCounts. sonic2 = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sonic3') {
+        if (clickCounts.sonic3 === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts. sonic3 === 2) {
+            window.open('You3.html', '_blank');
+            clickCounts. sonic3 = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sonic4') {
+        if (clickCounts.sonic4 === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts. sonic4 === 2) {
+            window.open('You4.html', '_blank');
+            clickCounts. sonic4 = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sonic5') {
+        if (clickCounts.sonic5 === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts. sonic5 === 2) {
+            window.open('You5.html', '_blank');
+            clickCounts. sonic5 = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sonic6') {
+        if (clickCounts.sonic6 === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts. sonic6 === 2) {
+            window.open('You6.html', '_blank');
+            clickCounts. sonic6 = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sonic7') {
+        if (clickCounts.sonic7 === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts. sonic7 === 2) {
+            window.open('You7.html', '_blank');
+            clickCounts. sonic7 = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sonic8') {
+        if (clickCounts.sonic8 === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts. sonic8 === 2) {
+            window.open('You8.html', '_blank');
+            clickCounts. sonic8 = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sonic9') {
+        if (clickCounts.sonic9 === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts. sonic9 === 2) {
+            window.open('You9.html', '_blank');
+            clickCounts. sonic9 = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sonic10') {
+        if (clickCounts.sonic10 === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts. sonic10 === 2) {
+            window.open('You10.html', '_blank');
+            clickCounts. sonic10 = 0;  // Reset click count for Movies
+        }
+    }
+
+
+    if (page === 'screen') {
+        if (clickCounts.screen === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts. screen === 2) {
+            window.open('movies.html', '_blank');
+            clickCounts. screen = 0;  // Reset click count for Movies
+        }
+    }
+}
+        // When the thumbnail is clicked, show the video player
+        document.getElementById("thumbnail").addEventListener("click", function() {
+            // Hide the thumbnail image
+            document.getElementById("thumbnail").style.display = "none";
+            
+            // Show the video player
+            document.getElementById("videoPlayerContainer").style.display = "block";
+            
+            // Play the video
+            const video = document.getElementById("videoPlayer");
+            video.play();
+        });
+        function toggleMenu() {
+            const nav = document.getElementById('content');
+            nav.classList.toggle('show');
+          }
