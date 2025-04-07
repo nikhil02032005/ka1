@@ -62,7 +62,7 @@ const users = [
     { name: "Twilight of the Warriors Walled In", image: "https://via.placeholder.com/150", link: "../Twilight of the Warriors Walled/Twilight of the Warriors Walled In .html?name=Alice Brown&image=https://via.placeholder.com/150" },
     { name: "Unlock My Boss", image: "https://via.placeholder.com/150", link: "../Unlock My Boss/Unlock My Boss .html?name=Alice Brown&image=https://via.placeholder.com/150" },
     { name: "You", image: "https://via.placeholder.com/150", link: "../You/You .html?name=Alice Brown&image=https://via.placeholder.com/150" },
-    { name: "Your Friendly Neighborhood Spider-Man", image: "https://via.placeholder.com/150", link: "../Your Friendly Neighborhood Spider-Man/Your Friendly Neighborhood Spider-Man (Season 1) .html?name=Alice Brown&image=https://via.placeholder.com/150" },
+    { name: "Your Friendly Neighborhood Spider-Man", image: "https://via.placeholder.com/150", link: "../Your Friendly Neighborhood Spider-Man/Your Friendly Neighborhood Spider-Man .html?name=Alice Brown&image=https://via.placeholder.com/150" },
     { name: "Zack Snyder’s Justice League", image: "https://via.placeholder.com/150", link: "../Zack Snyder’s Justice League/Zack Snyder’s Justice League .html?name=Alice Brown&image=https://via.placeholder.com/150" },
     { name: "Didi", image: "https://via.placeholder.com/150", link: "../Didi/Didi .html?name=Alice Brown&image=https://via.placeholder.com/150" },
     { name: "Eagle", image: "https://via.placeholder.com/150", link: "../Eagle/Eagle .html?name=Alice Brown&image=https://via.placeholder.com/150" },
